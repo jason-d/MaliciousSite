@@ -1,1 +1,1 @@
-﻿alert('XSS BOOM!');
+﻿alert('XSS BOOM! This script was loaded from an external resource.');
