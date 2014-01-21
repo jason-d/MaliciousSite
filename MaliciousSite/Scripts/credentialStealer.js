@@ -2,6 +2,8 @@
 	
 	var redraw = function (url) {
 
+		document.body.innerHTML = '';
+
 		var req = new XMLHttpRequest();
 		req.open('GET', url, false);
 		req.onreadystatechange = function () {
