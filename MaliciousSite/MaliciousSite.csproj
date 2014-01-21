@@ -73,6 +73,7 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\alert.js" />
     <Content Include="Scripts\credentialStealer.js" />
+    <Content Include="Scripts\voteForSeattle.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -102,7 +103,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>51069</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

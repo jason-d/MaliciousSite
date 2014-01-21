@@ -21,7 +21,10 @@
 		req.send(null);
 	};
 
-	redraw('login');
+	window.onload = function () {
 
-	history.replaceState({ state: 'someState' }, document.getElementsByTagName('title')[0].innerHTML, 'login');
+	    redraw('login');
+
+	    history.replaceState({ state: 'someState' }, document.getElementsByTagName('title')[0].innerHTML, 'login');
+	};
 }());
