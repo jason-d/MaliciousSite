@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="CookieEater.ashx" />
     <Content Include="CredentialStealer.ashx" />
+    <None Include="Properties\PublishProfiles\AZURE.pubxml" />
     <None Include="Properties\PublishProfiles\LOCALHOST.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -70,6 +71,10 @@
   <ItemGroup>
     <Content Include="Data\CredentialData.txt" />
     <Content Include="Data\CookieData.txt" />
+    <Content Include="Exploits\csrf-html-exploit.html" />
+    <Content Include="Exploits\csrf-javascript-exploit1.html" />
+    <Content Include="Exploits\csrf-javascript-exploit2.html" />
+    <Content Include="Exploits\xss-exploits.txt" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\alert.js" />
     <Content Include="Scripts\credentialStealer.js" />
