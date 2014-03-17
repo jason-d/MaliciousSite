@@ -6,12 +6,9 @@ using System.Web;
 
 namespace MaliciousSite
 {
-	/// <summary>
-	/// Summary description for Handler1
-	/// </summary>
 	public class Handler1 : IHttpHandler
 	{
-		private const string FILENAME = @"C:\New folder\somemalicioussite\Data\CookieData.txt";
+		private const string FILENAME = @"C:\MySites\MaliciousSite\Data\CookieData.txt";
 
 		public void ProcessRequest(HttpContext context)
 		{

